@@ -26,3 +26,8 @@ void NewArray(string[] array)
     }
     Console.Write("]");
 }
+Console.ForegroundColor = ConsoleColor.DarkBlue;
+Console.Write("Введите размер массива: ");
+Console.ResetColor();
+int massive = Convert.ToInt32(Console.ReadLine());
+string[] array = new string[massive];
